@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- npx tailwindcss -i ./input.css -o ./style.css --watch -->
+    <title>Training Solution - Digital Marketing System</title>
+</head>
+
+<body>
+    <div class="training-wrapper">
+        <div class="overflow-hidden bg-right w-full h-screen relative flex justify-center items-center"
+            style="background: url('./images/hero-bg-img.png');background-position: center; background-size: contain;">
+            <header class="pb-6  lg:pb-0 bg-transparent w-full absolute top-0 left-0">
+                <div class="px-4 mx-auto container sm:px-6 lg:px-8">
+                    <!-- lg+ -->
+                    <nav class="flex items-center justify-between h-16 lg:h-20">
+                        <div class="flex-shrink-0">
+                            <a href="/index.html" title="" class="flex">
+                                <img class="w-auto h-10 lg:h-16" src="./images/logo.svg" alt="" />
+                            </a>
+                        </div>
+
+                        <button type="button"
+                            class="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-[--blue-btn]">
+                            <!-- Menu open: "hidden", Menu closed: "block" -->
+                            <svg class="block w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 8h16M4 16h16" />
+                            </svg>
+
+                            <!-- Menu open: "block", Menu closed: "hidden" -->
+                            <svg class="hidden w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+
+                        <div
+                            class="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-16 font-[Geomanist-regular] text-[16px]">
+                            <a href="about.html" title=""
+                                class="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+                                About </a>
+
+
+                            <a href="services.html" title=""
+                                class="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+                                Our Services </a>
+
+                            <a href="blog.html" title=""
+                                class="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+                                Blog </a>
+                        </div>
+
+                        <a href="#" title=""
+                            class="items-center justify-center hidden px-8 py-2 text-white ml-32 text-base font-semibold bg-[color:var(--orange-btn)] transition-all duration-200 border border-transparent rounded-[50px] lg:inline-flex hover:bg-[color:var(--blue-btn)] focus:bg-[color:var(--orange-btn)]"
+                            role="button">Let's Talk</a>
+                    </nav>
+
+                    <!-- xs to lg -->
+                    <nav class="hidden pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden">
+                        <div class="flow-root">
+                            <div class="flex flex-col px-6 -my-2 space-y-4 font-[Geomanist-regular] text-[16px]">
+                                <a href="about.html" title=""
+                                    class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+                                    About </a>
+
+                                <a href="services.html" title=""
+                                    class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+                                    Our Services </a>
+
+                                <a href="blog.html" title=""
+                                    class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+                                    Blog </a>
+                            </div>
+
+                        </div>
+
+                        <div class="px-6 mt-6">
+                            <a href="#" title=""
+                                class="inline-flex justify-center px-8 py-2 font-[Geomanist-regular] font-semibold text-white transition-all duration-200 bg-[color:var(--orange-btn)] border border-transparent rounded-[50px] tems-center hover:bg-[color:var(--blue-btn)] focus:bg-blue-700"
+                                role="button"> Let's Talk </a>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="relative headingBox max-w-5xl mx-auto ">
+                <h2 class="font-[Geomanist-bold] text-white text-3xl lg:text-7xl w-[400px]  lg:w-[550px] text-center">
+                    TRAINING
+                </h2>
+                <div class="imgParaBox flex justify-center gap-x-10 items-start mt-2">
+                    <div class="imgcol w-[30%]"><a href="#"><img class="w-[100%]" src="./images/click-arrow.png"
+                                alt="click-arrow"></a> </div>
+                    <div class="para">
+                        <h2
+                            class="text-white font-[Geomanist-bold] text-3xl lg:text-7xl  lg:w-[70%] lg:text-start text-center leading-[66px]">
+                            SOLUTION</h2>
+                    </div>
+                </div>
+                <div class="animImgbox absolute left-0 top-0">
+                    <img class="absolute left-0 top-0" src="./images/yellow-vector-img.png" alt="">
+                    <img class="absolute left-0 top-0" src="./images/training-vector.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="AllSixSection">
+            <section class="content-management py-5 bg-black sm:py-5 lg:py-16">
+                <div class="container px-4 mx-auto sm:px-6 lg:px-8">
+                    <div class="grid items-center md:grid-cols-2 gap-y-10 md:gap-x-10">
+                        <div class="pr-12 sm:pr-0">
+                            <div class="relative">
+                                <img class="object-bottom rounded-md" src="./images/short-term-course.png"
+                                    alt="" />
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-start gap-0 sm:gap-10">
+                            <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Short Term Courses</h2>
+                            <ul class="text-white text-base leading-relaxed list-disc list-inside">
+                                <p>Training courses about:</p>
+                                <li>Digtal Marketing</li>
+                                <li>Graphic Design </li>
+                                <li>Content Writing</li>
+                                <li>Blockchain Marketing</li>
+                            </ul>
+                            <a href="#" title=""
+                                class="items-center justify-center hidden px-8 py-2 text-white text-base font-semibold bg-[color:var(--blue-btn)] transition-all duration-200 border border-transparent rounded-[50px] lg:inline-flex hover:bg-[color:var(--orange-btn)] focus:bg-[color:var(--orange-btn)]"
+                                role="button">Send Brief</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Fanpage-management py-5 bg-[#0D0F19] sm:py-5 lg:py-16">
+                <div class="container px-4 mx-auto sm:px-6 lg:px-8">
+                    <div class="grid items-center md:grid-cols-2 gap-y-10 md:gap-x-10">
+                        <div class="flex flex-col items-start gap-0 sm:gap-10">
+                            <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Marketing Vocational Training</h2>
+                            <ul class="text-white text-base leading-relaxed list-disc list-inside">
+                                <p>Our motto is “study at DMS, work at DMS”. As an agency, we have launched a host of marketing vocational training courses with job commitments, including the main fields as below:</p>
+                                <li>Plan content by month</li>
+                                <li>Post content, images for Fanpage</li>
+                                <li>Seeding comments Image</li>
+                                <li>support – Banner</li>
+                            </ul>
+                            <a href="#" title=""
+                                class="items-center justify-center hidden px-8 py-2 text-white text-base font-semibold bg-[color:var(--blue-btn)] transition-all duration-200 border border-transparent rounded-[50px] lg:inline-flex hover:bg-[color:var(--orange-btn)] focus:bg-[color:var(--orange-btn)]"
+                                role="button">Send Brief</a>
+                        </div>
+                        <div class="pr-12 sm:pr-0">
+                            <div class="relative">
+                                <img class="object-bottom rounded-md" src="./images/marketing-training.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="channel-management py-5 bg-black sm:py-5 lg:py-16">
+                <div class="container px-4 mx-auto sm:px-6 lg:px-8">
+                    <div class="grid items-center md:grid-cols-2 gap-y-10 md:gap-x-10">
+                        <div class="pr-12 sm:pr-0">
+                            <div class="relative">
+                                <img class="object-bottom rounded-md" src="./images/vocational-training.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-start gap-0 sm:gap-10">
+                            <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Blockchain Programming Vocational Training</h2>
+                            <ul class="text-white text-base leading-relaxed list-disc list-inside">
+                                <p>Helping students develop and improve blockchain-related applications, known as dApps (Decentralized Applications), smart contracts, architecture design and blockchain protocols. The teaching staff are experts in the blockchain field. Current Courses Offered:</p>
+                                <li>Blockchain coding Foundation</li>
+                                <li>Blockchain DApp developers</li>
+                            </ul>
+                            <a href="#" title=""
+                                class="items-center justify-center hidden px-8 py-2 text-white text-base font-semibold bg-[color:var(--blue-btn)] transition-all duration-200 border border-transparent rounded-[50px] lg:inline-flex hover:bg-[color:var(--orange-btn)] focus:bg-[color:var(--orange-btn)]"
+                                role="button">Send Brief</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+          <!-- ----------Footer Section ----------- -->
+
+          <div class="footer bg-black w-full h-auto ">
+            <div class="container flex flex-col footer justify-center items-center h-screen">
+               <div class="wrapper-text&iconBox relative w-full flex items-center justify-center h-[100vh]">
+                <div class="w-full  text&iconBox flex flex-col items-center text-center bg-transparent absolute z-10 top-[30%] left-[0%] translate-x-1">
+                    <p class="text-[--orange-btn] text-[20px]">Let’s Work Together</p>
+                    <h2 class="text-2xl font-semibold leading-tight text-white sm:text-2xl lg:text-3xl">Speed Up Your Time To Market</h2>
+                    <a href="#" title="" class=" mt-16 items-center justify-center hidden px-10 py-1 text-white text-[20px] font-semibold bg-[color:var(--orange-btn)] transition-all duration-200 border border-transparent rounded-[50px] lg:inline-flex hover:bg-[color:var(--blue-btn)] focus:bg-[color:var(--orange-btn)]"
+                    role="button">Talk With Us</a>
+                </div>
+                <div class="iconSet absolute top-[10%] right-[20%] -translate-x-1/3 translate-y-1 rounded-[50%] flex items-center justify-center flex-col w-[450px] h-[450px] z-0">
+                </div>
+               </div>
+               <div class="icon-wrapper">
+                <div class="container flex gap-10">
+                    <a class="hover:-mt-3 duration-500" href="#"><img src="./images/fb-icon.png" alt="" width="60"></a>
+                    <a class="hover:-mt-3 duration-500" href="#"><img src="./images/yt-icon.png" alt="" width="60"></a>
+                    <a class="hover:-mt-3 duration-500" href="#"><img src="./images/linked-icon.png" alt="" width="60"></a>
+                    <a class="hover:-mt-3 duration-500" href="#"><img src="./images/X-icon.png" alt="" width="60"></a>
+                </div>
+               </div>
+
+               
+               
+            </div>
+            <hr class="w-full mt-10 h-[0.1px] bg-[#949494]">
+            <div class="flogo flex items-start justify-center flex-col container min-h-[10%] py-5">
+                <a href="#"><img src="./images/logo.png" alt=""></a>
+            </div>
+            
+
+        </div>
+    </div>
+</body>
+
+</html>

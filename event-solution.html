@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- npx tailwindcss -i ./input.css -o ./style.css --watch -->
+    <title>Event Solution</title>
+</head>
+
+<body>
+    <div class="eventSolution-Wrapper bg-black">
+        <div class="mainSection w-full lg:h-screen py-10"
+            style="background-image: url('./images/digitalSolutionMain-bg.png');background-position:center ;background-repeat: no-repeat;background-size: cover;">
+            <div class="container flex flex-col justify-between items-center">
+                <header class="absolute top-0 left-0 pb-6  lg:pb-0 bg-transparent w-full">
+                    <div class="px-4 mx-auto container sm:px-6 lg:px-8">
+                        <!-- lg+ -->
+                        <nav class="flex items-center justify-between h-16 lg:h-20">
+                            <div class="flex-shrink-0">
+                                <a href="/index.html" title="" class="flex">
+                                    <img class="w-auto h-10 lg:h-16" src="./images/logo.svg" alt="" />
+                                </a>
+                            </div>
+
+                            <button type="button"
+                                class="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-[--blue-btn]">
+                                <!-- Menu open: "hidden", Menu closed: "block" -->
+                                <svg class="block w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 8h16M4 16h16" />
+                                </svg>
+
+                                <!-- Menu open: "block", Menu closed: "hidden" -->
+                                <svg class="hidden w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+
+                            <div
+                                class="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-16 font-[Geomanist-regular] text-[16px]">
+                                <a href="about.html" title=""
+                                    class="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+                                    About </a>
+
+
+                                <a href="services.html" title=""
+                                    class="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+                                    Our Services </a>
+
+                                <a href="blog.html" title=""
+                                    class="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+                                    Blog </a>
+                            </div>
+
+                            <a href="#" title=""
+                                class="items-center justify-center hidden px-8 py-2 text-white ml-32 text-base font-semibold bg-[color:var(--orange-btn)] transition-all duration-200 border border-transparent rounded-[50px] lg:inline-flex hover:bg-[color:var(--blue-btn)] focus:bg-[color:var(--orange-btn)]"
+                                role="button">Let's Talk</a>
+                        </nav>
+
+                        <!-- xs to lg -->
+                        <nav class="hidden pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden">
+                            <div class="flow-root">
+                                <div class="flex flex-col px-6 -my-2 space-y-4 font-[Geomanist-regular] text-[16px]">
+                                    <a href="about.html" title=""
+                                        class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+                                        About </a>
+
+                                    <a href="services.html" title=""
+                                        class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+                                        Our Services </a>
+
+                                    <a href="blog.html" title=""
+                                        class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+                                        Blog </a>
+                                </div>
+
+                            </div>
+
+                            <div class="px-6 mt-6">
+                                <a href="#" title=""
+                                    class="inline-flex justify-center px-8 py-2 font-[Geomanist-regular] font-semibold text-white transition-all duration-200 bg-[color:var(--orange-btn)] border border-transparent rounded-[50px] tems-center hover:bg-[color:var(--blue-btn)] focus:bg-blue-700"
+                                    role="button"> Let's Talk </a>
+                            </div>
+                        </nav>
+                    </div>
+                </header>
+                <div class="lg:mt-64 mt-20 headeingPart relative lg:w-[65%] flex flex-col items-start mx-auto">
+                    <h2 class="lg:text-[82px] text-[45px] leading-[1.2em] text-white lg:ml-20 font-[Geomanist-bold]">
+                        EVENT</h2>
+                    <div class="imgheading z-20 lg:flex-row-reverse flex flex-col lg:items-center lg:gap-5 gap-2">
+                        <h2 class="lg:text-[82px] text-[45px] leading-[1.2em] text-white font-[Geomanist-bold]">SOLUTION
+                        </h2>
+                        <div class="arrowdiv w-32 lg:w-36"><img class="100%" src="./images/click-arrow.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="w-[54%] z-10 animateImg absolute lg:-top-36 left-44 lg:left-96">
+                        <img class="100%" src="./images/digitalSolutionMain-img.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <section class="sm:py-20 py-10">
+            <div class="container">
+                <!-- component -->
+                <div class="grid  grid-cols-12 gap-y-5">
+
+                    <div class="grid grid-cols-2 col-span-12 rounded-lg py-8">
+                        <div class="pringHeading text-[#FE6B02]">
+                            <p>Spring Floral Festival</p>
+                            <h2 class="text-4xl font-[Geomanist-bold] text-white">2016-2020</h2>
+
+                        </div>
+                        <div class="textSect relative">
+                            <img class="absolute  z-0 right-0 -top-44" src=".//images/spring-floral-festival-vector.png"
+                                alt="">
+                            <p class="text-[14px] w-56 text-start float-end">Scale of Project: 19398 m2 Times: 2016 |
+                                2017 | 2018 | 2019 | 2020 Categories: Design | Construction Thread: HOA ĐỒNG CỎ NỘI</p>
+                        </div>
+                    </div>
+
+                    <div class="col-span-12 rounded-lg  sm:col-span-7">
+                        <div class="imgBox1">
+                            <img src="./images/spring-floral-festival-img1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-span-12 rounded-lg relative z-20 flex flex-col px-3 gap-3 sm:col-span-5">
+                        <!-- Sidebar Content -->
+                        <div class="imgBox2 rounded-[20px] lg:mt-0 mt-4">
+                            <img class="rounded-[20px]" src="./images/spring-floral-festival-img2.png" alt="">
+                        </div>
+                        <div class="imgBox3 rounded-[20px]   lg:mt-0 mt-4">
+                            <img class="rounded-[20px]" src="./images/spring-floral-festival-img3.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="bg-white h-[1px] container">
+        <section class="sm:py-20 py-10">
+            <div class="container">
+                <!-- component -->
+                <div class="grid  grid-cols-12 gap-y-5">
+
+                    <div class=" grid-cols-2 col-span-12 flex justify-between items-center rounded-lg py-8">
+                        <div class="textSect relative">
+                            <img class="absolute  z-0 left-0 -bottom-14" src=".//images/spring-floral-festival-vector2.png"
+                                alt="">
+                            <p class="text-[14px] w-48 text-start float-end">Time: 13/01/2022 Categories: Event organization</p>
+                        </div>
+                        <div class="pringHeading text-[#FE6B02] float-end">
+                            <p class="text-end">Project inauguration ceremony</p>
+                            <p class="w-[214px] text-[#FE6B02] text-end">Hanoi Urban Railway CAT LINH - HA DONG</p>
+                            <h2 class="text-4xl font-[Geomanist-bold] text-white text-end">2022</h2>
+
+                        </div>
+                    </div>
+
+                    <div class="col-span-12 rounded-lg  sm:col-span-7">
+                        <div class="imgBox1">
+                            <img class="rounded-[20px]" src="./images/Hanoi-urban-img1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-span-12 rounded-lg relative z-20 flex flex-col px-3 gap-3 sm:col-span-5">
+                        <!-- Sidebar Content -->
+                        <div class="imgBox2 rounded-[20px] lg:mt-0 mt-4">
+                            <img class="rounded-[20px]" src="./images/Hanoi-urban-img2.png" alt="">
+                        </div>
+                        <div class="imgBox3 rounded-[20px]   lg:mt-0 mt-4">
+                            <img class="rounded-[20px]" src="./images/Hanoi-urban-img3.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
